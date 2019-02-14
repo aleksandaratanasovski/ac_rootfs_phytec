@@ -1,0 +1,12 @@
+Package: uio-module-drv
+Version: 2.2.1.0+git0+bda9260f22-r7d.tisdk0
+Description: uio-module-drv version 2.2.1.0+gitAUTOINC+bda9260f22-r7d.tisdk0
+ User space IO (UIO) driver for on-chip modules
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: am5728_phycore_rdk
+OE: uio-module-drv
+Depends: kernel-module-uio-module-drv
+Source: git://git.ti.com/keystone-linux/uio-module-drv.git;protocol=git;branch=master

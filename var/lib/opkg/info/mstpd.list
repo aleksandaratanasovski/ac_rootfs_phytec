@@ -1,0 +1,14 @@
+/usr/libexec/mstpctl-utils/mstpctl-utils-functions.sh
+/usr/libexec/mstpctl-utils/
+/etc/network/if-post-down.d/mstpctl
+/etc/bash_completion.d/mstpctl
+/etc/network/if-pre-up.d/mstpctl
+/sbin/mstp_restart
+/usr/libexec/mstpctl-utils/ifquery
+/sbin/mstpd
+/etc/bridge-stp.conf
+/usr/libexec/mstpctl-utils/ifupdown.sh
+/sbin/bridge-stp
+/usr/libexec/mstpctl-utils/mstp_config_bridge
+/sbin/mstpctl
+/usr/libexec/mstpctl-utils/mstpctl_restart_config

@@ -1,0 +1,3 @@
+/usr/bin/kmstest
+/usr/bin/kmstest.libdrm 10
+/usr/bin/kmstest.kms++ 100

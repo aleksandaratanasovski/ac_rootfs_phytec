@@ -1,0 +1,11 @@
+Package: arago-feed-config
+Version: 1.0-r1
+Description: Arago feed configuration
+ Arago feed configuration.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am5728_phycore_rdk
+OE: arago-feed-config
+Source: None

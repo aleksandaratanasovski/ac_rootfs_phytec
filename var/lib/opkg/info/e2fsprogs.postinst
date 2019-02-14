@@ -1,0 +1,4 @@
+#!/bin/sh
+# Begin section update-alternatives
+update-alternatives --install /bin/chattr chattr /bin/chattr.e2fsprogs 100
+# End section update-alternatives

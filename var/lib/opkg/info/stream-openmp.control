@@ -1,0 +1,13 @@
+Package: stream-openmp
+Version: 5.10-r0.arago1
+Description: stream version 5.10-r0.arago1
+ Stream Benchmark
+Section: system
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Stream_Benchmark_License
+Architecture: armv7ahf-neon
+OE: stream
+Homepage: http://www.cs.virginia.edu/stream/
+Depends: libc6 (>= 2.23), libgomp1 (>= 6.2.1)
+Source: git://git.ti.com/sitara-linux/stream.git;branch=sdk

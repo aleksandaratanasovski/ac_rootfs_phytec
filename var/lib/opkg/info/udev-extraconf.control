@@ -1,0 +1,16 @@
+Package: udev-extraconf
+Version: 1.1-r0
+Description: Extra machine specific configuration files
+ Extra machine specific configuration files for udev, specifically
+ blacklist information.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: armv7ahf-neon
+OE: udev-extraconf
+Depends: udev
+Provides: udev-extra-rules
+Replaces: udev-extra-rules
+Conflicts: udev-extra-rules
+Source: file://automount.rules file://mount.sh file://mount.blacklist file://autonet.rules file://network.sh file://localextra.rules

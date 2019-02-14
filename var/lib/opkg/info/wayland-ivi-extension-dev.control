@@ -1,0 +1,16 @@
+Package: wayland-ivi-extension-dev
+Version: 1.11.0-r3
+Description: Wayland IVI Extension - Development files
+ GENIVI Layer Management API based on Wayland IVI Extension  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7ahf-neon
+OE: wayland-ivi-extension
+Homepage: http://projects.genivi.org/wayland-ivi-extension
+Depends: libc6 (>= 2.23), wayland-ivi-extension (= 1.11.0-r3)
+Recommends: libc6-dev, libdrm-omap-dev, libgcc-s-dev, libpixman-1-dev, libstdc++-dev, ti-sgx-ddk-um-dev, wayland-dev, weston-dev
+Source: git://github.com/GENIVI/wayland-ivi-extension.git;protocol=http file://force-type-conversion.patch file://0001-layer-add-surfaces-Add-screenId-as-an-argument.patch file://0002-layer-add-surfaces-surface-layer-management.patch

@@ -1,0 +1,13 @@
+Package: kernel-module-bc-example
+Version: 1.14.3699939-r7m
+Description: bc-example kernel module
+ bc-example kernel module
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT | GPLv2
+Architecture: am5728_phycore_rdk
+OE: ti-sgx-ddk-km
+Homepage: https://git.ti.com/graphics/omap5-sgx-ddk-linux
+Depends: kernel-4.9.41-g61a65e1-BSP-Yocto-TISDK-AM57xx-PD18.2.0, kernel-module-pvrsrvkm
+Source: git://git.ti.com/graphics/omap5-sgx-ddk-linux.git;protocol=git;branch=ti-img-sgx/1.14.3699939/k4.9

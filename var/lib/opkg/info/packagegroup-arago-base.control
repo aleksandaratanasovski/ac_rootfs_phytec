@@ -1,0 +1,12 @@
+Package: packagegroup-arago-base
+Version: 1.0-r9
+Description: packagegroup-arago-base version 1.0-r9
+ Basic task to get a device booting
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am5728_phycore_rdk
+OE: packagegroup-arago-base
+Depends: alsa-lib, alsa-utils-aplay, bash, curl, devmem2, ethtool, initscript-telnetd, module-init-tools, mtd-utils, mtd-utils-ubifs, tcpdump, thermal-init, udev-extraconf
+Source: None

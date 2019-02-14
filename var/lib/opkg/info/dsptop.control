@@ -1,0 +1,12 @@
+Package: dsptop
+Version: 1.4.0-r0.2
+Description: dsptop version 1.4.0-r0.2
+ TI dsptop utility.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: am5728_phycore_rdk
+OE: dsptop
+Depends: debugss-module-drv, libc6 (>= 2.23), libncurses5 (>= 6.0+20160625), libtinfo5 (>= 6.0+20160625)
+Source: git://git.ti.com/sdo-emu/dsptop.git;protocol=git;branch=master

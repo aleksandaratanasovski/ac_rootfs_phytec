@@ -1,0 +1,12 @@
+Package: packagegroup-arago-tisdk-crypto
+Version: 1.0-r10
+Description: packagegroup-arago-tisdk-crypto version 1.0-r10
+ Task to install crypto packages into target FS
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am5728_phycore_rdk
+OE: packagegroup-arago-tisdk-crypto
+Depends: cryptodev-module, cryptodev-tests, openssl, openssl-engines, openssl-misc, ti-crypto-examples
+Source: None

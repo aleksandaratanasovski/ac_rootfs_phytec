@@ -1,0 +1,12 @@
+Package: pcitest
+Version: 4.9-r0
+Description: Linux Kernel PCI test
+ Linux Kernel PCI test.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7ahf-neon
+OE: pcitest
+Depends: libc6 (>= 2.23)
+Source: git://git.ti.com/ti-linux-kernel/ti-linux-kernel.git;protocol=git;branch=ti-lsk-linux-4.9.y

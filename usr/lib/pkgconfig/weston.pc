@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+libexecdir=/usr/libexec
+pkglibexecdir=${libexecdir}/weston
+
+Name: Weston Plugin API
+Description: Header files for Weston plugin development
+Version: 1.11.0
+Requires.private: wayland-server pixman-1 xkbcommon
+Cflags: -I${includedir}

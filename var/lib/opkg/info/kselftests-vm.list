@@ -1,0 +1,12 @@
+/usr/bin/kselftests/vm/mlock-random-test
+/usr/bin/kselftests/vm/mlock2-tests
+/usr/bin/kselftests/vm/userfaultfd
+/usr/bin/kselftests/vm/on-fault-limit
+/usr/bin/kselftests/vm/compaction_test
+/usr/bin/kselftests/vm/run_vmtests
+/usr/bin/kselftests/vm/hugepage-mmap
+/usr/bin/kselftests/vm/map_hugetlb
+/usr/bin/kselftests/vm/transhuge-stress
+/usr/bin/kselftests/vm/
+/usr/bin/kselftests/vm/hugepage-shm
+/usr/bin/kselftests/vm/thuge-gen

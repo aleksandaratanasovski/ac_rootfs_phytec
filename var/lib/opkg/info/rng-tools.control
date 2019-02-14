@@ -1,0 +1,13 @@
+Package: rng-tools
+Version: 5-r0
+Description: Random number generator daemon
+ Random number generator daemon.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7ahf-neon
+OE: rng-tools
+Depends: libc6 (>= 2.23), libgcrypt (>= 1.7.3)
+Recommends: update-rc.d
+Source: http://heanet.dl.sourceforge.net/sourceforge/gkernel/rng-tools-5.tar.gz file://0001-If-the-libc-is-lacking-argp-use-libargp.patch file://0002-Add-argument-to-control-the-libargp-dependency.patch file://underquote.patch file://uclibc-libuargp-configure.patch file://init file://default

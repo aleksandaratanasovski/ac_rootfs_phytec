@@ -1,0 +1,4 @@
+/usr/bin/kselftests/sysctl/run_numerictests
+/usr/bin/kselftests/sysctl/common_tests
+/usr/bin/kselftests/sysctl/run_stringtests
+/usr/bin/kselftests/sysctl/

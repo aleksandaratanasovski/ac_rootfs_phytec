@@ -1,0 +1,13 @@
+Package: kernel-module-debugss-kmodule
+Version: 1.4.0+git0+0aedcabdbb-r7d
+Description: debugss-kmodule kernel module
+ debugss-kmodule kernel module; Debug Sub-System (DebugSS) module for
+ DRA7xx devices
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: am5728_phycore_rdk
+OE: debugss-module-drv
+Depends: kernel-4.9.41-g61a65e1-BSP-Yocto-TISDK-AM57xx-PD18.2.0
+Source: git://git.ti.com/sdo-emu/dsptop.git;protocol=git;branch=master

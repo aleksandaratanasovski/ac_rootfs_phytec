@@ -1,0 +1,12 @@
+Package: packagegroup-arago-base-tisdk
+Version: 1.0-r19
+Description: packagegroup-arago-base-tisdk version 1.0-r19
+ Additional packages beyond console packages shared by TI SDKs
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am5728_phycore_rdk
+OE: packagegroup-arago-base-tisdk
+Depends: arago-feed-config, arago-gpl-notice, cifs-utils, dbus, expat, glib-2.0, iperf, iptables, libpcre, libxml2, nfs-utils-client
+Source: None

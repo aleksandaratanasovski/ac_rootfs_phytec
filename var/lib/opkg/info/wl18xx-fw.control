@@ -1,0 +1,11 @@
+Package: wl18xx-fw
+Version: 8.7.1-r0
+Description: wl18xx-fw version 8.7.1-r0
+ Firmware files for use with TI wl18xx
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: TI-TSPA
+Architecture: armv7ahf-neon
+OE: wl18xx-fw
+Source: git://git.ti.com/wilink8-wlan/wl18xx_fw.git;protocol=git;branch=master file://0001-Add-Makefile-to-install-firmware-files.patch

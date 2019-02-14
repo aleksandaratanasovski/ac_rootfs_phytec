@@ -1,0 +1,12 @@
+Package: gdbserverproxy-module-drv
+Version: 1.1.0+git0+df0b8f6f4e-r7b
+Description: gdbserverproxy-module-drv version 1.1.0+gitAUTOINC+df0b8f6f4e-r7b
+ Interface for GDB to commincate witha TI C66X DSP
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: am5728_phycore_rdk
+OE: gdbserverproxy-module-drv
+Depends: kernel-module-gdbserverproxy
+Source: git://git.ti.com/sdo-emu/gdbc6x.git;protocol=git;branch=master

@@ -1,0 +1,4 @@
+#!/bin/sh
+# Begin section update-alternatives
+update-alternatives --install /usr/bin/kmstest kmstest /usr/bin/kmstest.kms++ 100
+# End section update-alternatives

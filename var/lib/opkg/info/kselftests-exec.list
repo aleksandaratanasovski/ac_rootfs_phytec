@@ -1,0 +1,7 @@
+/usr/bin/kselftests/exec/script
+/usr/bin/kselftests/exec/subdir/
+/usr/bin/kselftests/exec/execveat
+/usr/bin/kselftests/exec/
+/usr/bin/kselftests/exec/execveat.denatured
+/usr/bin/kselftests/exec/execveat.symlink
+/usr/bin/kselftests/exec/Makefile

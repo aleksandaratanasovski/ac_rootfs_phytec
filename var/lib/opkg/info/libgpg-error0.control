@@ -1,0 +1,14 @@
+Package: libgpg-error0
+Version: 1.24-r0
+Description: Small library that defines common error values for all GnuPG components
+ Small library that defines common error values for all GnuPG components.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: armv7ahf-neon
+OE: libgpg-error
+Homepage: http://www.gnupg.org/related_software/libgpg-error/
+Depends: libc6 (>= 2.23)
+Provides: libgpg-error
+Source: https://www.gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.24.tar.bz2 file://pkgconfig.patch

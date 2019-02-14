@@ -1,0 +1,2 @@
+/usr/bin/kselftests/cpu-hotplug/
+/usr/bin/kselftests/cpu-hotplug/cpu-on-off-test.sh

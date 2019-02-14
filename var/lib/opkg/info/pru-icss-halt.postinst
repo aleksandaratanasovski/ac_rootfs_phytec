@@ -1,0 +1,7 @@
+#!/bin/sh
+# Begin section update-alternatives
+update-alternatives --install /lib/firmware/am57xx-pru1_0-fw am57xx-pru1_0-fw /lib/firmware/pru/PRU_Halt.out 50
+update-alternatives --install /lib/firmware/am57xx-pru1_1-fw am57xx-pru1_1-fw /lib/firmware/pru/PRU_Halt.out 50
+update-alternatives --install /lib/firmware/am57xx-pru2_0-fw am57xx-pru2_0-fw /lib/firmware/pru/PRU_Halt.out 50
+update-alternatives --install /lib/firmware/am57xx-pru2_1-fw am57xx-pru2_1-fw /lib/firmware/pru/PRU_Halt.out 50
+# End section update-alternatives

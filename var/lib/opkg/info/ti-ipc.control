@@ -1,0 +1,15 @@
+Package: ti-ipc
+Version: 3.46.02.04-r1.0
+Description: ti-ipc version 3.46.02.04-r1.0
+ TI Inter Process Communication (IPC) Mechanisms (for Uni- and Multi-
+ Processor Configurations)
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: am5728_phycore_rdk
+OE: ti-ipc
+Homepage: http://processors.wiki.ti.com/index.php/Category:IPC
+Depends: libc6 (>= 2.23)
+Recommends: update-rc.d
+Source: git://git.ti.com/ipc/ipcdev.git;protocol=git;branch=3.46;name=ipcdev file://tiipclad-daemon.sh file://omap_remoteproc.conf file://0001-Add-kernel-build-dir.patch

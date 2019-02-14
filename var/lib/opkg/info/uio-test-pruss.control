@@ -1,0 +1,11 @@
+Package: uio-test-pruss
+Version: 1.0.2.0-r2.tisdk1
+Description: uio-test-pruss version 1.0.2.0-r2.tisdk1
+ Provides test pruss firmware for uio based tests
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: am5728_phycore_rdk
+OE: uio-test-pruss
+Source: git://git.ti.com/processor-sdk/uio-test-pruss.git;protocol=git;branch=master

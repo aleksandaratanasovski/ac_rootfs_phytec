@@ -1,0 +1,11 @@
+#!/bin/sh
+# Use a modules directory which doesn't exist so we don't load random things
+# which may then get deleted (or their dependencies) and potentially segfault
+export GIO_MODULE_DIR=/media/jenkins1/builddata1/yocto_ti_pd18.2.0/build_am5728/arago-tmp-external-linaro-toolchain/sysroots/am5728-phycore-rdk/usr/lib/gio/modules-dummy
+
+PSEUDO_UNLOAD=1 qemu-arm -r 3.2.0  -L /media/jenkins1/builddata1/yocto_ti_pd18.2.0/build_am5728/arago-tmp-external-linaro-toolchain/sysroots/am5728-phycore-rdk -E LD_LIBRARY_PATH=$GIR_EXTRA_LIBS_PATH:.libs:/media/jenkins1/builddata1/yocto_ti_pd18.2.0/build_am5728/arago-tmp-external-linaro-toolchain/sysroots/am5728-phycore-rdk//usr/lib:/media/jenkins1/builddata1/yocto_ti_pd18.2.0/build_am5728/arago-tmp-external-linaro-toolchain/sysroots/am5728-phycore-rdk//lib  "$@"
+if [ $? -ne 0 ]; then
+    echo "If the above error message is about missing .so libraries, then setting up GIR_EXTRA_LIBS_PATH in the recipe should help."
+    echo "(typically like this: GIR_EXTRA_LIBS_PATH=\"$""{B}/something/.libs\" )"
+    exit 1
+fi

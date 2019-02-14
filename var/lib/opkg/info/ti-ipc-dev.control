@@ -1,0 +1,16 @@
+Package: ti-ipc-dev
+Version: 3.46.02.04-r1.0
+Description: ti-ipc version 3.46.02.04-r1.0 - Development files
+ TI Inter Process Communication (IPC) Mechanisms (for Uni- and Multi-
+ Processor Configurations)  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: am5728_phycore_rdk
+OE: ti-ipc
+Homepage: http://processors.wiki.ti.com/index.php/Category:IPC
+Depends: ti-ipc (= 3.46.02.04-r1.0)
+Recommends: initscripts-dev, libc6-dev, update-rc.d-dev
+Source: git://git.ti.com/ipc/ipcdev.git;protocol=git;branch=3.46;name=ipcdev file://tiipclad-daemon.sh file://omap_remoteproc.conf file://0001-Add-kernel-build-dir.patch

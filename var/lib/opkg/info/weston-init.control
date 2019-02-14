@@ -1,0 +1,13 @@
+Package: weston-init
+Version: 1.0-r0.arago7
+Description: Startup script and systemd unit file for the Weston Wayland compositor
+ Startup script and systemd unit file for the Weston Wayland compositor.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: all
+OE: weston-init
+Depends: kbd, weston
+Recommends: update-rc.d
+Source: file://init file://weston.service file://weston-start file://runWeston

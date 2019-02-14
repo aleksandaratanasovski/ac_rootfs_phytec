@@ -1,0 +1,13 @@
+Package: gstreamer1.0-plugins-bad-rtponvif
+Version: 1.8.3-r5
+Description: GStreamer plugin for rtponvif
+ GStreamer plugin for rtponvif
+Section: multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2+ & LGPLv2.1+
+Architecture: am5728_phycore_rdk
+OE: gstreamer1.0-plugins-bad
+Homepage: http://gstreamer.freedesktop.org/
+Depends: gstreamer1.0 (>= 1.8.3), libc6 (>= 2.23), libffi6 (>= 3.2.1), libglib-2.0-0 (>= 2.48.2), libgstrtp-1.0-0 (>= 1.8.3), libpcre1 (>= 8.39)
+Source: http://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.8.3.tar.xz file://configure-allow-to-disable-libssh2.patch file://fix-maybe-uninitialized-warnings-when-compiling-with-Os.patch file://avoid-including-sys-poll.h-directly.patch file://ensure-valid-sentinels-for-gst_structure_get-etc.patch file://0001-gstreamer-gl.pc.in-don-t-append-GL_CFLAGS-to-CFLAGS.patch file://0002-glplugin-enable-gldeinterlace-on-OpenGL-ES.patch file://0003-glcolorconvert-implement-multiple-render-targets-for.patch file://0004-glcolorconvert-don-t-use-the-predefined-variable-nam.patch file://0005-glshader-add-glBindFragDataLocation.patch file://0006-glcolorconvert-GLES3-deprecates-texture2D-and-it-doe.patch file://0008-gl-implement-GstGLMemoryEGL.patch file://0009-glimagesink-Downrank-to-marginal.patch file://0001-introspection.m4-prefix-pkgconfig-paths-with-PKG_CON.patch file://0001-Makefile.am-don-t-hardcode-libtool-name-when-running.patch file://0001-gstdrmallocator-Add-DRM-allocator-support.patch file://0002-parsers-Pick-previos-bug-fixes-on-different-parsers.patch file://0003-gstkmssink-Add-support-for-KMS-based-sink.patch file://0004-gstwaylandsink-Add-DRM-support-on-waylandsink.patch file://0002-kmssink-remove-DCE-dependencies.patch file://0003-kmssink-add-YUYV-support.patch file://0001-gstwaylandsink-add-input-format-I420-support.patch file://0005-gstwaylandsink-Implement-callbacks-for-version-5-of-.patch file://0006-gstwaylandsink-Fix-scale-up-with-padded-video.patch

@@ -1,0 +1,4 @@
+/usr/bin/kselftests/efivarfs/efivarfs.sh
+/usr/bin/kselftests/efivarfs/
+/usr/bin/kselftests/efivarfs/create-read
+/usr/bin/kselftests/efivarfs/open-unlink

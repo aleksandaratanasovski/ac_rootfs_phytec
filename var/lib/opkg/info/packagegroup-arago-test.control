@@ -1,0 +1,12 @@
+Package: packagegroup-arago-test
+Version: 1.0-r48.tisdk0
+Description: packagegroup-arago-test version 1.0-r48.tisdk0
+ Extended task to get System Test specific apps
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am5728_phycore_rdk
+OE: packagegroup-arago-test
+Depends: bc, bonnie++, cpuburn-neon, cpuloadgen, cpuset, evtest, hdparm, input-utils, iozone3, kselftests, libdrm-tests, lmbench, ltp-ddt, memtester, mstpd, mtd-utils-ubifs-tests, omapconf, pcitest, perf, powertop, procps, pulseaudio-misc, rng-tools, rt-tests, rwmem, smcroute, stress, ti-ipc-test, timestamping, uvc-gadget, v4l-utils, yavta
+Source: None

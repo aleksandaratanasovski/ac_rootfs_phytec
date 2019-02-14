@@ -1,0 +1,14 @@
+Package: kdump
+Version: 2.0.14-r1.arago2
+Description: Kexec fast reboot tools
+ Kexec is a fast reboot feature that lets you reboot to a new Linux kernel
+Section: kernel/userland
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7ahf-neon
+OE: kexec-tools
+Homepage: http://kernel.org/pub/linux/utils/kernel/kexec/
+Depends: libc6 (>= 2.23), liblzma5 (>= 5.2.2), libz1 (>= 1.2.8)
+Recommends: update-rc.d
+Source: git://git.kernel.org/pub/scm/utils/kernel/kexec/kexec-tools.git;protocol=git;branch=master file://kdump file://kdump.conf file://0001-HACK-TO-get-kexec-up-on-dra7.patch

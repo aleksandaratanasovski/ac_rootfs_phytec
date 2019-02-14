@@ -1,0 +1,12 @@
+Package: u-boot-fw-utils
+Version: v2016.03+git0+df61a74e68-r0
+Description: U-Boot bootloader fw_printenv/setenv utilities
+ U-Boot bootloader fw_printenv/setenv utilities.
+Section: bootloader
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: am5728_phycore_rdk
+OE: u-boot-fw-utils
+Depends: libc6 (>= 2.23)
+Source: git://git.denx.de/u-boot.git;branch=master

@@ -1,0 +1,12 @@
+Package: debugss-module-drv
+Version: 1.4.0+git0+0aedcabdbb-r7d
+Description: debugss-module-drv version 1.4.0+gitAUTOINC+0aedcabdbb-r7d
+ Debug Sub-System (DebugSS) driver for Keystone and DRA7xx devices
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: am5728_phycore_rdk
+OE: debugss-module-drv
+Depends: kernel-module-debugss-kmodule
+Source: git://git.ti.com/sdo-emu/dsptop.git;protocol=git;branch=master

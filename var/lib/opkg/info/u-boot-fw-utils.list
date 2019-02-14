@@ -1,0 +1,3 @@
+/sbin/fw_setenv
+/etc/fw_env.config
+/sbin/fw_printenv

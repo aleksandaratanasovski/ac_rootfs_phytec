@@ -1,0 +1,13 @@
+Package: swig
+Version: 3.0.8-r0
+Description: SWIG - Simplified Wrapper and Interface Generator
+ SWIG - Simplified Wrapper and Interface Generator.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD & GPLv3
+Architecture: armv7ahf-neon
+OE: swig
+Homepage: http://swig.sourceforge.net/
+Depends: libc6 (>= 2.23), libgcc-s1 (>= 6.2.1), libpcre1 (>= 8.39), libstdc++6 (>= 6.2.1), libz1 (>= 1.2.8)
+Source: http://downloads.sourceforge.net/swig/swig-3.0.8.tar.gz file://0001-Use-proc-self-exe-for-swig-swiglib-on-non-Win32-plat.patch file://0001-configure-use-pkg-config-for-pcre-detection.patch

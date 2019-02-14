@@ -1,0 +1,6 @@
+#!/bin/sh
+# Begin section update-rc.d
+if [ -z "$D" -a -x "/etc/init.d/weston" ]; then
+	/etc/init.d/weston stop || :
+fi
+# End section update-rc.d

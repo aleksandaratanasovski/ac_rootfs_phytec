@@ -1,0 +1,12 @@
+Package: uio-module-drv-test
+Version: 2.2.1.0+git0+bda9260f22-r3.tisdk1
+Description: uio-module-drv-test version 2.2.1.0+gitAUTOINC+bda9260f22-r3.tisdk1
+ Test code for user space IO (UIO) driver
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: am5728_phycore_rdk
+OE: uio-module-drv-test
+Depends: libc6 (>= 2.23), uio-module-drv
+Source: git://git.ti.com/keystone-linux/uio-module-drv.git;protocol=git;branch=master

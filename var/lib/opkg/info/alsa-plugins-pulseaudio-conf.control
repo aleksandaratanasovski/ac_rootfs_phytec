@@ -1,0 +1,13 @@
+Package: alsa-plugins-pulseaudio-conf
+Version: 1.1.1-r0.arago0
+Description: ALSA Plugins
+ ALSA Plugins.
+Section: multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1 & GPLv2+
+Architecture: armv7ahf-neon
+OE: alsa-plugins
+Homepage: http://alsa-project.org
+Depends: libasound-module-conf-pulse, libasound-module-ctl-pulse, libasound-module-pcm-pulse
+Source: ftp://ftp.alsa-project.org/pub/plugins/alsa-plugins-1.1.1.tar.bz2

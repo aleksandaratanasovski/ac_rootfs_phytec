@@ -1,0 +1,16 @@
+Package: perf
+Version: 4.9.41-r9
+Description: Performance analysis tools for Linux
+ Performance counters for Linux are a new kernel-based subsystem that
+ provide a framework for all things performance analysis. It covers
+ hardware level (CPU/PMU, Performance Monitoring Unit) features and
+ software features (software counters, tracepoints) as well.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: am5728_phycore_rdk
+OE: perf
+Depends: bash, binutils (>= linaro-2.27), elfutils, libc6 (>= 2.23), libcrypto1.0.0 (>= 1.0.2j), libdw1 (>= 0.148), libelf1 (>= 0.148), libgcc-s1 (>= 6.2.1), liblzma5 (>= 5.2.2), libperl5 (>= 5.22.1), libpython2.7-1.0 (>= 2.7.12), libz1 (>= 1.2.8), perl, slang (>= 2.3.0)
+Suggests: perf-archive, perf-perl, perf-python, perf-tests
+Source: None

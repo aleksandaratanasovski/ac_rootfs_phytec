@@ -1,0 +1,12 @@
+Package: python-numpy
+Version: 1.11.1-r0
+Description: A sophisticated Numeric Processing Package for Python
+ A sophisticated Numeric Processing Package for Python.
+Section: devel/python
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PSF
+Architecture: armv7ahf-neon
+OE: python-numpy
+Depends: libc6 (>= 2.23), libpython2.7-1.0 (>= 2.7.12), python-compression, python-ctypes, python-datetime, python-difflib, python-distutils, python-doctest, python-email, python-misc, python-mmap, python-netclient, python-nose, python-numbers, python-pickle, python-pkgutil, python-pprint, python-pydoc, python-shell, python-subprocess, python-threading, python-unittest
+Source: https://files.pythonhosted.org/packages/source/n/numpy/numpy-1.11.1.tar.gz file://0001-Don-t-search-usr-and-so-on-for-libraries-by-default-.patch file://remove-build-path-in-comments.patch file://fix_shebang_f2py.patch file://config.h file://numpyconfig.h

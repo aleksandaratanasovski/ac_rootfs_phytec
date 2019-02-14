@@ -1,0 +1,11 @@
+Package: kselftests-firmware
+Version: 4.9-r0
+Description: Linux Kernel Selftests
+ Linux Kernel Selftests.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: am5728_phycore_rdk
+OE: kselftests
+Source: https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.9.tar.xz

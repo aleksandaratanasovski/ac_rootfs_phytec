@@ -1,0 +1,2 @@
+#!/bin/sh
+prelink-rtld --root=/media/jenkins1/builddata1/yocto_ti_pd18.2.0/build_am5728/arago-tmp-external-linaro-toolchain/sysroots/am5728-phycore-rdk "$@"

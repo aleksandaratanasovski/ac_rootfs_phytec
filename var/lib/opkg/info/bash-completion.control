@@ -1,0 +1,13 @@
+Package: bash-completion
+Version: 2.4-r0
+Description: Programmable Completion for Bash 4
+ Programmable Completion for Bash 4.
+Section: console/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7ahf-neon
+OE: bash-completion
+Homepage: http://bash-completion.alioth.debian.org/
+Depends: bash
+Source: https://github.com/scop/bash-completion/releases/download/2.4/bash-completion-2.4.tar.xz

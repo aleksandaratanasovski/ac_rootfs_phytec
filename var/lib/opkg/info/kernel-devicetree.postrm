@@ -1,0 +1,10 @@
+	cd /boot
+	for DTB in  am57xx-phycore-rdk.dtb am572x-phycore-rdk-41300111i.dtb am572x-phycore-rdk-50500111i.dtb am572x-phycore-rdk-10200110i.dtb am572x-phycore-rdk-40200110c.dtb am572x-phycore-rdk-40a00111i.dtb ; do
+		for type in zImage uImage; do
+			symlink_name=${type}"-"am5728-phycore-rdk
+			DTB_EXT=${DTB##*.}
+			DTB_BASE_NAME=`basename ${DTB} ."${DTB_EXT}"`
+			DTB_SYMLINK_NAME=`echo ${symlink_name} | sed "s/am5728-phycore-rdk/${DTB_BASE_NAME}/g"`
+			update-alternatives --remove ${DTB_BASE_NAME}.${DTB_EXT} /boot/devicetree-${DTB_SYMLINK_NAME}.${DTB_EXT} 40941 || true
+		done
+	done

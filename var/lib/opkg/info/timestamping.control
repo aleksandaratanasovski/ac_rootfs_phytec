@@ -1,0 +1,12 @@
+Package: timestamping
+Version: 4.1-r0
+Description: Linux Kernel timestamping
+ Linux Kernel timestamping.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: am5728_phycore_rdk
+OE: timestamping
+Depends: libc6 (>= 2.23)
+Source: https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.1.tar.xz

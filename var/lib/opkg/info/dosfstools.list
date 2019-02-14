@@ -1,0 +1,10 @@
+/usr/sbin/mkdosfs
+/usr/sbin/dosfslabel
+/usr/sbin/mkfs.vfat
+/usr/sbin/mkfs.fat
+/usr/sbin/fsck.vfat
+/usr/sbin/fsck.msdos
+/usr/sbin/mkfs.msdos
+/usr/sbin/fsck.fat
+/usr/sbin/dosfsck
+/usr/sbin/fatlabel

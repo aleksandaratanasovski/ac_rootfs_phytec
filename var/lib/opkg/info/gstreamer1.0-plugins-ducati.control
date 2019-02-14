@@ -1,0 +1,13 @@
+Package: gstreamer1.0-plugins-ducati
+Version: git-r2.26
+Description: gstreamer1.0-plugins-ducati version git-r2.26
+ GStreamer elements to use the multimedia accelerators available on some
+ TI parts
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2
+Architecture: am5728_phycore_rdk
+OE: gstreamer1.0-plugins-ducati
+Depends: gstreamer1.0 (>= 1.8.3), libc6 (>= 2.23), libdce1 (>= 3.00.13.00), libdrm-omap1 (>= 2.4.70), libdrm2 (>= 2.4.70), libffi6 (>= 3.2.1), libglib-2.0-0 (>= 2.48.2), libgstallocators-1.0-0 (>= 1.8.3), libgstdrm-1.0-0 (>= 1.8.3), libgstvideo-1.0-0 (>= 1.8.3), liborc-0.4-0 (>= 0.4.25), libpcre1 (>= 8.39), ti-ipc (>= 3.46.02.04)
+Source: git://git.ti.com/glsdk/gst-plugin-ducati.git;protocol=git;branch=master

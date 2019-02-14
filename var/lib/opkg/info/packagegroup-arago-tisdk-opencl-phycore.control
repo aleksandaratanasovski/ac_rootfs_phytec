@@ -1,0 +1,12 @@
+Package: packagegroup-arago-tisdk-opencl-phycore
+Version: 1.0-r0
+Description: packagegroup-arago-tisdk-opencl-phycore version 1.0-r0
+ Task to add OpenCL/CV/MP without demos for phycore boards
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am5728_phycore_rdk
+OE: packagegroup-arago-tisdk-opencl-phycore
+Depends: dsplib-c66x, opencl, opencv, openmpacc
+Source: None

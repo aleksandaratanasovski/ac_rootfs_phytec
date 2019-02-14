@@ -1,0 +1,13 @@
+Package: pm-qa
+Version: 0.4.14-r0.arago0
+Description: pm-qa version 0.4.14-r0.arago0
+ Utilities for testing Power Management
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7ahf-neon
+OE: pm-qa
+Homepage: https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/TestSuite/PmQa
+Depends: bash, libc6 (>= 2.23)
+Source: git://git.linaro.org/power/pm-qa.git;protocol=git;branch=master file://0001-Return-non-zero-value-on-test-failure.patch file://0002-cpuidle-Avoid-relative-paths.patch

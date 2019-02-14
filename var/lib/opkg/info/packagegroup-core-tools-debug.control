@@ -1,0 +1,12 @@
+Package: packagegroup-core-tools-debug
+Version: 1.0-r3
+Description: Debugging tools
+ Debugging tools.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: all
+OE: packagegroup-core-tools-debug
+Depends: gdb, gdbserver, libc-mtrace, strace
+Source: None

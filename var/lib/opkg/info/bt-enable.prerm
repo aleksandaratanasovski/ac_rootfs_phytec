@@ -1,0 +1,19 @@
+#!/bin/sh
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl stop bt-enable.service
+	fi
+
+	systemctl $OPTS disable bt-enable.service
+fi
+# Begin section update-rc.d
+if [ -z "$D" -a -x "/etc/init.d/bt-enable.sh" ]; then
+	/etc/init.d/bt-enable.sh stop || :
+fi
+# End section update-rc.d

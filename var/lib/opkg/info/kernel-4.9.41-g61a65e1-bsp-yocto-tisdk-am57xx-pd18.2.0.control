@@ -1,0 +1,14 @@
+Package: kernel-4.9.41-g61a65e1-bsp-yocto-tisdk-am57xx-pd18.2.0
+Version: 4.9.41+git_v4.9.41-phy4-r7a
+Description: linux-phytec-ti version 4.9.41+git_v4.9.41-phy4-r7a
+ Linux kernel for PHYTEC AM57xx devices, based on TI's processor-
+ sdk_04.01.00
+Section: kernel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: am5728_phycore_rdk
+OE: linux-phytec-ti
+Depends: kernel-devicetree, kernel-image-4.9.41-g61a65e1-bsp-yocto-tisdk-am57xx-pd18.2.0, vpdma-fw
+Provides: kernel-4.9.41-g61a65e1-BSP-Yocto-TISDK-AM57xx-PD18.2.0, kernel-base
+Source: git://git@stash.phytec.com/scm/pub/linux-phytec-ti.git;protocol=https;branch=v4.9.41-phy file://defconfig file://openamp.scc

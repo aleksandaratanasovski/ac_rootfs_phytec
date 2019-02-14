@@ -1,0 +1,14 @@
+Package: libloki0.1.7
+Version: 0.1.7-r0
+Description: Loki C++ Library
+ Loki C++ Library.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: armv7ahf-neon
+OE: libloki
+Homepage: http://sourceforge.net/projects/loki-lib/
+Depends: libc6 (>= 2.23), libgcc-s1 (>= 6.2.1), libstdc++6 (>= 6.2.1)
+Provides: libloki
+Source: http://libloki.sourcearchive.com/downloads/0.1.7-3/libloki_0.1.7.orig.tar.gz file://0001-include-loki-Threads.h-return-statement-with-a-value.patch file://0002-test-Function-FunctionTest.cpp-reference-to-bad_func.patch

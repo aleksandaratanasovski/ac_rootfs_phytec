@@ -1,0 +1,16 @@
+Package: ti-sgx-ddk-km
+Version: 1.14.3699939-r7m
+Description: ti-sgx-ddk-km version 1.14.3699939-r7m
+ Kernel drivers for the PowerVR SGX chipset found in the TI SoCs
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT | GPLv2
+Architecture: am5728_phycore_rdk
+OE: ti-sgx-ddk-km
+Homepage: https://git.ti.com/graphics/omap5-sgx-ddk-linux
+Depends: kernel-module-bc-example, kernel-module-pvrsrvkm
+Provides: omapdrm-pvr
+Replaces: omapdrm-pvr
+Conflicts: omapdrm-pvr
+Source: git://git.ti.com/graphics/omap5-sgx-ddk-linux.git;protocol=git;branch=ti-img-sgx/1.14.3699939/k4.9

@@ -1,0 +1,15 @@
+Package: qtbase-dev
+Version: 5.7.1+git0+a55f36211e-r0.arago12.tisdk4
+Description: qtbase version 5.7.1+gitAUTOINC+a55f36211e-r0.arago12.tisdk4 - Development files
+ qtbase version 5.7.1+gitAUTOINC+a55f36211e-r0.arago12.tisdk4.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GFDL-1.3 & BSD & ( GPL-3.0 & The-Qt-Company-GPL-Exception-1.0 | The-Qt-Company-Commercial ) & ( GPL-2.0+ | LGPL-3.0 | The-Qt-Company-Commercial )
+Architecture: armv7ahf-neon
+OE: qtbase
+Depends: qtbase (= 5.7.1+git0+a55f36211e-r0.arago12.tisdk4)
+Recommends: dbus-dev, dbus-lib-dev, drm-dev, icu-dev, jpeg-dev, libc6-dev, libdrm-dev, libdrm-omap-dev, libfontconfig-dev, libfreetype-dev, libgbm-dev, libgcc-s-dev, libicudata-dev, libicui18n-dev, libicuuc-dev, libpng16-dev, libssl-dev, libstdc++-dev, libudev-dev, libz-dev, openssl-dev, pulseaudio-dev, qtbase, qtbase-conf-dev, qtbase-mkspecs, qtbase-qmldesigner, ti-sgx-ddk-um-dev, udev-dev, wayland-dev
+Source: git://github.com/qtproject/qtbase.git;name=qtbase;branch=5.7;protocol=git file://0001-Add-linux-oe-g-platform.patch file://0002-qlibraryinfo-allow-to-set-qt.conf-from-the-outside-u.patch file://0003-Add-external-hostbindir-option.patch file://0004-qt_module-Fix-pkgconfig-and-libtool-replacements.patch file://0005-configure-bump-path-length-from-256-to-512-character.patch file://0006-QOpenGLPaintDevice-sub-area-support.patch file://0007-linux-oe-g-Invert-conditional-for-defining-QT_SOCKLE.patch file://0008-configure-paths-for-target-qmake-properly.patch file://0009-Reorder-EGL-libraries-from-pkgconfig-and-defaults.patch file://0010-Pretend-Qt5-wasn-t-found-if-OE_QMAKE_PATH_EXTERNAL_H.patch file://0001-deform-Fix-how-controls-are-shown.patch file://0002-deform-disable-opengl-button.patch file://0001-qtbase-enhance-eglfs_kms-to-handle-DRM-plane-set-req.patch

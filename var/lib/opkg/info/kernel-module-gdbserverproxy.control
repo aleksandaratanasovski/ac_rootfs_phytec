@@ -1,0 +1,13 @@
+Package: kernel-module-gdbserverproxy
+Version: 1.1.0+git0+df0b8f6f4e-r7b
+Description: gdbserverproxy kernel module
+ gdbserverproxy kernel module; Interface for GDB to communicate with c66x
+ DSP
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: am5728_phycore_rdk
+OE: gdbserverproxy-module-drv
+Depends: kernel-4.9.41-g61a65e1-BSP-Yocto-TISDK-AM57xx-PD18.2.0
+Source: git://git.ti.com/sdo-emu/gdbc6x.git;protocol=git;branch=master

@@ -1,0 +1,13 @@
+Package: lmbench
+Version: 3.0-a9-r2.arago3
+Description: Tools for performance analysis
+ Tools for performance analysis.
+Section: console/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2 & GPL-2.0-with-lmbench-restriction
+Architecture: armv7ahf-neon
+OE: lmbench
+Homepage: http://lmbench.sourceforge.net/
+Depends: libc6 (>= 2.23)
+Source: http://downloads.sourceforge.net/lmbench/lmbench-3.0-a9.tgz file://lmbench-run file://rename-line-binary.patch file://update-results-script.patch file://obey-ranlib.patch file://update-config-script.patch file://use-base_libdir-instead-of-hardcoded-lib.patch file://lmbench_result_html_report.patch file://fix-lmbench-memory-check-failure.patch file://0001-avoid-gcc-optimize-away-the-loops.patch file://0001-Makefile-Add-TI-SDK-Modifications.patch

@@ -1,0 +1,12 @@
+Package: ti-gc320-tests
+Version: 5.0.11.p7-r2
+Description: ti-gc320-tests version 5.0.11.p7-r2
+ Test application for GC320 2D API
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: armv7ahf-neon
+OE: ti-gc320-tests
+Depends: libc6 (>= 2.23), ti-gc320-libs (>= 5.0.11.p7)
+Source: git://git.ti.com/graphics/ti-gc320-test.git;protocol=git;branch=ti-5.0.11.p7 file://0001-makefile.linux.def-relax-assignment-of-CC-and-other-.patch

@@ -1,0 +1,13 @@
+Package: cryptodev-tests
+Version: 1.8-r0
+Description: A test suite for /dev/crypto device driver
+ A test suite for /dev/crypto device driver.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7ahf-neon
+OE: cryptodev-tests
+Homepage: http://cryptodev-linux.org/
+Depends: libc6 (>= 2.23), libcrypto1.0.0 (>= 1.0.2j), libssl1.0.0 (>= 1.0.2j)
+Source: http://nwl.cc/pub/cryptodev-linux/cryptodev-linux-1.8.tar.gz file://06d6b560c6e45dc317dae47c74706fa43f4a31d8.patch file://cb186f682679383e8b5806240927903730ce85d9.patch file://0001-Add-the-compile-and-install-rules-for-cryptodev-test.patch

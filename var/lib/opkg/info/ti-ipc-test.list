@@ -1,0 +1,4 @@
+/usr/bin/NameServerApp
+/usr/bin/MessageQApp
+/usr/bin/MessageQMulti
+/usr/bin/ping_rpmsg

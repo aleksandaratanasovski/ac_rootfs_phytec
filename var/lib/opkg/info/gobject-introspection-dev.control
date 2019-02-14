@@ -1,0 +1,16 @@
+Package: gobject-introspection-dev
+Version: 1.48.0-r0
+Description: Middleware layer between GObject-using C libraries and language bindings - Development files
+ Middleware layer between GObject-using C libraries and language bindings.
+ This package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2+ & GPLv2+
+Architecture: armv7ahf-neon
+OE: gobject-introspection
+Homepage: https://wiki.gnome.org/action/show/Projects/GObjectIntrospection
+Depends: gobject-introspection (= 1.48.0-r0)
+Recommends: libc6-dev, libffi-dev, libglib-2.0-dev, libpcre-dev, libz-dev, python3-dev
+Source: http://ftp.gnome.org/pub/GNOME/sources/gobject-introspection/1.48/gobject-introspection-1.48.0.tar.xz file://0001-Revert-an-incomplete-upstream-attempt-at-cross-compi.patch file://0002-configure.ac-add-host-gi-gi-cross-wrapper-gi-ldd-wra.patch file://0003-giscanner-add-use-binary-wrapper-option.patch file://0004-giscanner-add-a-use-ldd-wrapper-option.patch file://0005-Prefix-pkg-config-paths-with-PKG_CONFIG_SYSROOT_DIR-.patch

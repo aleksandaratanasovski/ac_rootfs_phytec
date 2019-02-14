@@ -1,0 +1,13 @@
+Package: bonnie++
+Version: 1.03e-r0
+Description: Tests large file IO and creation/deletion of small files
+ Tests large file IO and creation/deletion of small files.
+Section: benchmark/tests
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7ahf-neon
+OE: bonnie++
+Homepage: http://www.coker.com.au/bonnie++/
+Depends: libc6 (>= 2.23), libgcc-s1 (>= 6.2.1), libstdc++6 (>= 6.2.1)
+Source: http://www.coker.com.au/bonnie++/bonnie++-1.03e.tgz file://gcc-4.3-fixes.patch

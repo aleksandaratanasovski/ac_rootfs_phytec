@@ -1,0 +1,11 @@
+[Unit]
+Description=Aloecare BaseStation service 
+After=serial-getty@.service
+[Service]
+ExecStart=/home/root/BS_app
+StandardOutput=tty
+#StandardOutput=/home/root/aloecare.log
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target

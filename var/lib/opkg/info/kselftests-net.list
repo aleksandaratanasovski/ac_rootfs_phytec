@@ -1,0 +1,10 @@
+/usr/bin/kselftests/net/reuseport_bpf_cpu
+/usr/bin/kselftests/net/run_netsocktests
+/usr/bin/kselftests/net/psock_tpacket
+/usr/bin/kselftests/net/socket
+/usr/bin/kselftests/net/
+/usr/bin/kselftests/net/test_bpf.sh
+/usr/bin/kselftests/net/reuseport_dualstack
+/usr/bin/kselftests/net/reuseport_bpf
+/usr/bin/kselftests/net/psock_fanout
+/usr/bin/kselftests/net/run_afpackettests

@@ -1,0 +1,15 @@
+Package: libcap-ng0
+Version: 0.7.8-r0
+Description: An alternate posix capabilities library
+ The libcap-ng library is intended to make programming with POSIX
+ capabilities much easier than the traditional libcap library.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: armv7ahf-neon
+OE: libcap-ng
+Homepage: http://freecode.com/projects/libcap-ng
+Depends: libc6 (>= 2.23)
+Provides: libcap-ng
+Source: http://people.redhat.com/sgrubb/libcap-ng/libcap-ng-0.7.8.tar.gz file://python.patch

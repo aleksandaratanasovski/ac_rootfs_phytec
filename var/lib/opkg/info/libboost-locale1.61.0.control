@@ -1,0 +1,14 @@
+Package: libboost-locale1.61.0
+Version: 1.61.0-r0
+Description: Free peer-reviewed portable C++ source libraries
+ Free peer-reviewed portable C++ source libraries.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSL-1.0 & MIT & Python-2.0
+Architecture: armv7ahf-neon
+OE: boost
+Homepage: http://www.boost.org/
+Depends: libboost-chrono1.61.0 (>= 1.61.0), libboost-system1.61.0 (>= 1.61.0), libboost-thread1.61.0 (>= 1.61.0), libc6 (>= 2.23), libgcc-s1 (>= 6.2.1), libicudata57 (>= 57.1), libicui18n57 (>= 57.1), libicuuc57 (>= 57.1), libstdc++6 (>= 6.2.1)
+Provides: boost-locale
+Source: http://downloads.sourceforge.net/boost/boost_1_61_0.tar.bz2 file://arm-intrinsics.patch file://consider-hardfp.patch file://boost-CVE-2012-2677.patch file://0001-boost-asio-detail-socket_types.hpp-fix-poll.h-includ.patch file://0002-boost-test-execution_monitor.hpp-fix-mips-soft-float.patch file://0003-smart_ptr-mips-assembly-doesn-t-compile-in-mips16e-m.patch file://0004-Use-atomic-by-default-when-BOOST_NO_CXX11_HDR_ATOMIC.patch file://boost-math-disable-pch-for-gcc.patch

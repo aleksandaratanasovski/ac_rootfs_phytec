@@ -1,0 +1,5 @@
+/usr/bin/kselftests/zram/zram_lib.sh
+/usr/bin/kselftests/zram/zram01.sh
+/usr/bin/kselftests/zram/
+/usr/bin/kselftests/zram/zram02.sh
+/usr/bin/kselftests/zram/zram.sh

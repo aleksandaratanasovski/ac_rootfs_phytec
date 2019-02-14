@@ -1,0 +1,13 @@
+Package: git
+Version: 2.9.3-r0
+Description: Distributed version control system
+ Distributed version control system.
+Section: console/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7ahf-neon
+OE: git
+Homepage: http://git-scm.com
+Depends: libc6 (>= 2.23), libcrypto1.0.0 (>= 1.0.2j), libcurl4 (>= 7.50.1), libexpat1 (>= 2.2.0), libssl1.0.0 (>= 1.0.2j), libz1 (>= 1.2.8)
+Source: http://kernel.org/pub/software/scm/git/git-2.9.3.tar.gz;name=tarball http://kernel.org/pub/software/scm/git/git-manpages-2.9.3.tar.gz;name=manpages

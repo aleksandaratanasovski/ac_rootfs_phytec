@@ -1,0 +1,13 @@
+Package: pru-icss-halt
+Version: 5.1.0-r1
+Description: pru-icss version 5.1.0-r1
+ Programmable Real-time Unit Software Package
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause & GPL-2.0 & PD
+Architecture: am5728_phycore_rdk
+OE: pru-icss
+Homepage: http://processors.wiki.ti.com/index.php/PRU-ICSS
+Depends: update-alternatives-opkg
+Source: git://git.ti.com/pru-software-support-package/pru-software-support-package.git;protocol=git;branch=master

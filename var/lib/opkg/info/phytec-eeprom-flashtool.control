@@ -1,0 +1,13 @@
+Package: phytec-eeprom-flashtool
+Version: 1.0-r1
+Description: phytec-eeprom-flashtool version 1.0-r1
+ EEPROM configuration tool for PHYTEC SOMs
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: armv7ahf-neon
+OE: phytec-eeprom-flashtool
+Homepage: http://www.phytec.com
+Depends: python
+Source: git://git@stash.phytec.com/scm/pub/phytec-eeprom-flashtool.git;protocol=https;branch=master

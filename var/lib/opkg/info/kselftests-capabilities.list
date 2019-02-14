@@ -1,0 +1,4 @@
+/usr/bin/kselftests/capabilities/test_execve
+/usr/bin/kselftests/
+/usr/bin/kselftests/capabilities/validate_cap
+/usr/bin/kselftests/capabilities/

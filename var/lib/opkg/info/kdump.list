@@ -1,0 +1,4 @@
+/usr/sbin/kdump
+/etc/init.d/kdump
+/etc/sysconfig/kdump.conf
+/etc/sysconfig/

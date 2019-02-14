@@ -1,0 +1,14 @@
+Package: bluez5-testtools
+Version: 5.41-r0
+Description: Linux Bluetooth Stack Userland V5
+ Linux Bluetooth stack V5 userland components.  These include a system
+ configurations, daemons, tools and system libraries.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: armv7ahf-neon
+OE: bluez5
+Homepage: http://www.bluez.org
+Depends: python3, python3-dbus, python3-pygobject
+Source: http://kernel.org/pub/linux/bluetooth/bluez-5.41.tar.xz file://out-of-tree.patch file://init file://run-ptest file://0001-tests-add-a-target-for-building-tests-without-runnin.patch

@@ -1,0 +1,12 @@
+Package: wlconf
+Version: 8.7.1-r0
+Description: wlconf version 8.7.1-r0
+ Configuration utility for TI wireless drivers
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7ahf-neon
+OE: wlconf
+Depends: libc6 (>= 2.23)
+Source: git://git.ti.com/wilink8-wlan/18xx-ti-utils.git

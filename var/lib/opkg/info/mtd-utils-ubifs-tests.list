@@ -1,0 +1,12 @@
+/usr/sbin/runtests.sh
+/usr/sbin/mkvol_paral
+/usr/sbin/io_paral
+/usr/sbin/io_read
+/usr/sbin/stress-test.sh
+/usr/sbin/integ
+/usr/sbin/rsvol
+/usr/sbin/mkvol_basic
+/usr/sbin/io_basic
+/usr/sbin/mkvol_bad
+/usr/sbin/volrefcnt
+/usr/sbin/io_update

@@ -1,0 +1,7 @@
+#!/bin/sh
+# Begin section update-alternatives
+update-alternatives --remove  am57xx-pru1_0-fw /lib/firmware/pru/PRU_Halt.out
+update-alternatives --remove  am57xx-pru1_1-fw /lib/firmware/pru/PRU_Halt.out
+update-alternatives --remove  am57xx-pru2_0-fw /lib/firmware/pru/PRU_Halt.out
+update-alternatives --remove  am57xx-pru2_1-fw /lib/firmware/pru/PRU_Halt.out
+# End section update-alternatives

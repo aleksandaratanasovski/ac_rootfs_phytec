@@ -1,0 +1,12 @@
+Package: eventdump
+Version: 1.0+git0+5db45a36a0-r3
+Description: Utility for parsing system events
+ Utility for parsing system events.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7ahf-neon
+OE: eventdump
+Depends: libc6 (>= 2.23)
+Source: git://github.com/TI-ECS/eventdump.git;protocol=git

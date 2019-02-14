@@ -1,0 +1,4 @@
+#!/bin/sh
+# Begin section update-alternatives
+update-alternatives --remove  hdparm /sbin/hdparm.hdparm
+# End section update-alternatives

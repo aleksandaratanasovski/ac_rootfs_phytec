@@ -1,0 +1,4 @@
+#!/bin/sh
+# Begin section update-alternatives
+update-alternatives --remove  chattr /bin/chattr.e2fsprogs
+# End section update-alternatives

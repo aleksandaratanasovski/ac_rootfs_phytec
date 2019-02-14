@@ -1,0 +1,3 @@
+/usr/bin/kselftests/firmware/
+/usr/bin/kselftests/firmware/fw_userhelper.sh
+/usr/bin/kselftests/firmware/fw_filesystem.sh

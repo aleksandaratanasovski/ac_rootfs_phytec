@@ -1,0 +1,13 @@
+Package: gstreamer1.0-plugins-good-audiofx
+Version: 1.8.3-r0
+Description: GStreamer plugin for audiofx
+ GStreamer plugin for audiofx
+Section: multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: armv7ahf-neon
+OE: gstreamer1.0-plugins-good
+Homepage: http://gstreamer.freedesktop.org/
+Depends: gstreamer1.0 (>= 1.8.3), libc6 (>= 2.23), libffi6 (>= 3.2.1), libglib-2.0-0 (>= 2.48.2), libgstaudio-1.0-0 (>= 1.8.3), libgstfft-1.0-0 (>= 1.8.3), libgsttag-1.0-0 (>= 1.8.3), liborc-0.4-0 (>= 0.4.25), libpcre1 (>= 8.39), libz1 (>= 1.2.8)
+Source: http://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.8.3.tar.xz file://0001-gstrtpmp4gpay-set-dafault-value-for-MPEG4-without-co.patch file://avoid-including-sys-poll.h-directly.patch file://ensure-valid-sentinel-for-gst_structure_get.patch file://0001-introspection.m4-prefix-pkgconfig-paths-with-PKG_CON.patch

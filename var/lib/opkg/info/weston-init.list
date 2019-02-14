@@ -1,0 +1,3 @@
+/usr/bin/runWeston
+/etc/init.d/weston
+/usr/bin/weston-start

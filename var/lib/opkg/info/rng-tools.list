@@ -1,0 +1,4 @@
+/etc/init.d/rng-tools
+/etc/default/rng-tools
+/usr/bin/rngtest
+/usr/sbin/rngd

@@ -1,0 +1,12 @@
+Package: libgphoto2-camlibs
+Version: 2.5.8-r0.tisdk0
+Description: libgphoto2 allows you to access digital cameras
+ libgphoto2 allows you to access digital cameras.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1
+Architecture: armv7ahf-neon
+OE: libgphoto2
+Depends: libc6 (>= 2.23), libexif12 (>= 0.6.21), libgphoto2-6 (>= 2.5.8), libgphoto2-port12 (>= 2.5.8), libjpeg62 (>= 1.5.0), libltdl7 (>= 2.4.6), libusb-1.0-0 (>= 1.0.20), libxml2 (>= 2.9.4), libz1 (>= 1.2.8)
+Source: http://downloads.sourceforge.net/gphoto/libgphoto2-2.5.8.tar.bz2;name=libgphoto2 file://10-camera-libgphoto2-device.fdi file://10-camera-libgphoto2.fdi file://40-libgphoto2.rules file://0001-configure.ac-remove-AM_PO_SUBDIRS.patch file://0002-correct-jpeg-memsrcdest-support.patch file://avoid_using_sprintf.patch

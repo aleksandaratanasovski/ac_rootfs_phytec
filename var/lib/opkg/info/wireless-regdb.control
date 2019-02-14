@@ -1,0 +1,13 @@
+Package: wireless-regdb
+Version: 2016.06.10-r0
+Description: Wireless Central Regulatory Domain Database
+ Wireless Central Regulatory Domain Database.
+Section: net
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: ISC
+Architecture: armv7ahf-neon
+OE: wireless-regdb
+Homepage: http://wireless.kernel.org/en/developers/Regulatory/CRDA
+Suggests: crda
+Source: https://www.kernel.org/pub/software/network/wireless-regdb/wireless-regdb-2016.06.10.tar.xz

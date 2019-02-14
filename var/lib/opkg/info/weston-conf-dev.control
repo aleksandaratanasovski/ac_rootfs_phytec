@@ -1,0 +1,14 @@
+Package: weston-conf-dev
+Version: 1.11.0-r2
+Description: Weston configuration files - Development files
+ Weston configuration files.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am5728_phycore_rdk
+OE: weston-conf
+Homepage: http://wayland.freedesktop.org
+Depends: weston-conf (= 1.11.0-r2)
+Source: file://wayland_env.sh file://weston.ini

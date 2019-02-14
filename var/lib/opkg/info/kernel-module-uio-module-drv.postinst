@@ -1,0 +1,12 @@
+#!/bin/sh
+if [ -z "$D" ]; then
+	depmod -a 4.9.41-g61a65e1-BSP-Yocto-TISDK-AM57xx-PD18.2.0
+else
+	# image.bbclass will call depmodwrapper after everything is installed,
+	# no need to do it here as well
+	:
+fi
+
+if [ x"$D" = "x" ]; then
+	modprobe uio_module_drv || true
+fi

@@ -1,0 +1,13 @@
+Package: iozone3
+Version: 434-r0
+Description: Filesystem and Disk Benchmarking Tool
+ Filesystem and Disk Benchmarking Tool.
+Section: console/tests
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: iozone3
+Architecture: armv7ahf-neon
+OE: iozone3
+Homepage: http://www.iozone.org/
+Depends: libc6 (>= 2.23)
+Source: http://www.iozone.org/src/current/iozone3_434.tar file://copyright.txt

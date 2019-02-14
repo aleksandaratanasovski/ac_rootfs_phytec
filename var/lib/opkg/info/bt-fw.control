@@ -1,0 +1,11 @@
+Package: bt-fw
+Version: 8.7.1+git0+0ee619b598-r0
+Description: bt-fw version 8.7.1+gitAUTOINC+0ee619b598-r0
+ Firmware files for Bluetooth
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: TI-TSPA
+Architecture: armv7ahf-neon
+OE: bt-fw
+Source: git://git.ti.com/ti-bt/service-packs.git;branch=master

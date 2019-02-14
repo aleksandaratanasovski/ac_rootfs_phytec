@@ -1,0 +1,15 @@
+Package: libevdev-dev
+Version: 1.5.2-r0
+Description: Wrapper library for evdev devices - Development files
+ Wrapper library for evdev devices.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT-X
+Architecture: armv7ahf-neon
+OE: libevdev
+Homepage: http://www.freedesktop.org/wiki/Software/libevdev/
+Depends: libevdev (= 1.5.2-r0)
+Recommends: libc6-dev
+Source: http://www.freedesktop.org/software/libevdev/libevdev-1.5.2.tar.xz

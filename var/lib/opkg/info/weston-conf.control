@@ -1,0 +1,12 @@
+Package: weston-conf
+Version: 1.11.0-r2
+Description: Weston configuration files
+ Weston configuration files.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am5728_phycore_rdk
+OE: weston-conf
+Homepage: http://wayland.freedesktop.org
+Source: file://wayland_env.sh file://weston.ini

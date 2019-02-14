@@ -1,0 +1,14 @@
+Package: weston
+Version: 1.11.0-r0.arago22.tisdk0
+Description: Weston, a Wayland compositor
+ Weston is the reference implementation of a Wayland compositor
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: armv7ahf-neon
+OE: weston
+Homepage: http://wayland.freedesktop.org
+Depends: base-files, base-passwd, libc6 (>= 2.23), libcairo2 (>= 1.14.6), libcap2 (>= 2.25), libdrm-omap1 (>= 2.4.70), libdrm2 (>= 2.4.70), libevdev (>= 1.5.2), libexpat1 (>= 2.2.0), libffi6 (>= 3.2.1), libfontconfig1 (>= 2.12.1), libfreetype6 (>= 2.6.5), libgbm2 (>= 10.0.0), libinput (>= 1.4.1), libjpeg62 (>= 1.5.0), libpixman-1-0 (>= 0.34.0), libpng16-16 (>= 1.6.24), libudev1 (>= 230+git0+3a74d4fc90), libxkbcommon0 (>= 0.6.1), libz1 (>= 1.2.8), mtdev (>= 1.1.5), shadow, ti-sgx-ddk-um (>= 1.14.3699939), wayland (>= 1.11.0), weston-conf, xkeyboard-config
+Recommends: liberation-fonts
+Source: https://wayland.freedesktop.org/releases/weston-1.11.0.tar.xz file://weston.png file://weston.desktop file://0001-make-error-portable.patch file://0001-configure.ac-Fix-wayland-protocols-path.patch file://0001-shared-include-stdint.h-for-int32_t.patch file://xwayland.weston-start file://make-weston-launch-exit-for-unrecognized-option.patch file://0001-weston-launch-Provide-a-default-version-that-doesn-t.patch file://weston-1.11-config-option-for-no-input-device.patch file://0001-udev-seat-restrict-udev-enumeration-to-card0.patch file://0002-Weston-Allow-visual_id-to-be-0.patch file://0003-Weston-Fix-virtual-keyboard-display-issue-for-QT5-ap.patch file://0004-Weston-Fix-touch-screen-crash-issue.patch file://0001-compositor-drm-fix-hotplug-weston-termination-proble.patch file://0001-compositor-drm-support-RGB565-with-pixman-renderer.patch file://0001-Add-soc-performance-monitor-utilites.patch

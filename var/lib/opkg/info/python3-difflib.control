@@ -1,0 +1,13 @@
+Package: python3-difflib
+Version: 3.5.2-r1.0
+Description: Python helpers for computing deltas between objects
+ The Python Programming Language.
+Section: devel/python
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PSFv2
+Architecture: armv7ahf-neon
+OE: python3
+Homepage: http://www.python.org
+Depends: python3-lang, python3-re
+Source: http://www.python.org/ftp/python/3.5.2/Python-3.5.2.tar.xz file://python-config.patch file://000-cross-compile.patch file://020-dont-compile-python-files.patch file://030-fixup-include-dirs.patch file://070-dont-clean-ipkg-install.patch file://080-distutils-dont_adjust_files.patch file://130-readline-setup.patch file://150-fix-setupterm.patch file://0001-h2py-Fix-issue-13032-where-it-fails-with-UnicodeDeco.patch file://tweak-MULTIARCH-for-powerpc-linux-gnuspe.patch file://sitecustomize.py file://03-fix-tkinter-detection.patch file://avoid_warning_about_tkinter.patch file://cgi_py.patch file://host_include_contamination.patch file://python-3.3-multilib.patch file://shutil-follow-symlink-fix.patch file://sysroot-include-headers.patch file://unixccompiler.patch file://avoid-ncursesw-include-path.patch file://python3-use-CROSSPYTHONPATH-for-PYTHON_FOR_BUILD.patch file://python3-setup.py-no-host-headers-libs.patch file://sysconfig.py-add-_PYTHON_PROJECT_SRC.patch file://setup.py-check-cross_compiling-when-get-FLAGS.patch file://setup.py-find-libraries-in-staging-dirs.patch file://configure.ac-fix-LIBPL.patch file://python3-fix-CVE-2016-1000110.patch

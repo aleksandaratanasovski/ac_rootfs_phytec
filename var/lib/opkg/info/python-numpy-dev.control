@@ -1,0 +1,15 @@
+Package: python-numpy-dev
+Version: 1.11.1-r0
+Description: A sophisticated Numeric Processing Package for Python - Development files
+ A sophisticated Numeric Processing Package for Python.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PSF
+Architecture: armv7ahf-neon
+OE: python-numpy
+Depends: python-numpy (= 1.11.1-r0)
+Recommends: libc6-dev, libpython2-dev, python-compression-dev, python-ctypes-dev, python-datetime-dev, python-dev, python-difflib-dev, python-distutils-dev, python-doctest-dev, python-email-dev, python-misc-dev, python-mmap-dev, python-netclient-dev, python-nose-dev, python-numbers-dev, python-pickle-dev, python-pkgutil-dev, python-pprint-dev, python-pydoc-dev, python-shell-dev, python-subprocess-dev, python-threading-dev, python-unittest-dev
+Source: https://files.pythonhosted.org/packages/source/n/numpy/numpy-1.11.1.tar.gz file://0001-Don-t-search-usr-and-so-on-for-libraries-by-default-.patch file://remove-build-path-in-comments.patch file://fix_shebang_f2py.patch file://config.h file://numpyconfig.h

@@ -1,0 +1,3 @@
+/lib/systemd/system/ptpd.service
+/usr/bin/ptpd2
+/etc/default/ptpd

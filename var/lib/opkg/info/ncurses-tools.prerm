@@ -1,0 +1,5 @@
+#!/bin/sh
+# Begin section update-alternatives
+update-alternatives --remove  clear /usr/bin/clear.ncurses
+update-alternatives --remove  reset /usr/bin/reset.ncurses
+# End section update-alternatives

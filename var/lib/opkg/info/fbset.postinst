@@ -1,0 +1,4 @@
+#!/bin/sh
+# Begin section update-alternatives
+update-alternatives --install /usr/sbin/fbset fbset /usr/sbin/fbset.real 55
+# End section update-alternatives

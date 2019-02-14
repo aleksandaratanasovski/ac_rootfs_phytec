@@ -1,0 +1,16 @@
+Package: jpeg-tools
+Version: 1:1.5.0-r0
+Description: Hardware accelerated JPEG compression/decompression library
+ The jpeg-tools package includes client programs to access libjpeg
+ functionality.  These tools allow for the compression, decompression,
+ transformation and display of JPEG files and benchmarking of the libjpeg
+ library.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: armv7ahf-neon
+OE: libjpeg-turbo
+Homepage: http://libjpeg-turbo.org/
+Depends: libc6 (>= 2.23), libjpeg62 (>= 1.5.0), libturbojpeg0 (>= 1.5.0)
+Source: http://downloads.sourceforge.net/libjpeg-turbo/libjpeg-turbo-1.5.0.tar.gz

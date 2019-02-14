@@ -1,0 +1,2 @@
+/lib/systemd/system/gplv3-notice.service
+/etc/init.d/gplv3-notice

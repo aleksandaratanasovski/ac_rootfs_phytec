@@ -1,0 +1,13 @@
+Package: packagegroup-arago-tisdk-addons-phycore
+Version: 1.0-r0
+Description: packagegroup-arago-tisdk-addons-phycore version 1.0-r0
+ Task to add additional utilities for SDKs without demos for phycore
+ boards
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am5728_phycore_rdk
+OE: packagegroup-arago-tisdk-addons-phycore
+Depends: am-sysinfo, canutils, cmem, dropbear, dsptop, gdbc6x, gdbserver, git, kdump, kexec, kms++, kms++-python, libdrm-kms, libdrm-omap, mmc-utils, openssh-sftp-server, oprofile, packagegroup-core-buildessential, packagegroup-core-tools-debug, parted, pru-icss, ptpd, stream-openmp, strongswan, switch-config, ti-ipc-rtos-fw, trace-cmd, u-boot-fw-utils, uio-module-drv, uio-module-drv-test, uio-test-pruss, valgrind
+Source: None

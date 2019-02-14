@@ -1,0 +1,13 @@
+/usr/lib/libilmCommon.so.1.11.0
+/usr/lib/weston/ivi-controller.so
+/usr/bin/LayerManagerControl
+/usr/bin/multi-touch-viewer
+/usr/bin/EGLWLInputEventExample
+/usr/bin/simple-ivi-share
+/usr/lib/weston/ivi-input-controller.so
+/usr/lib/libilmInput.so.1.11.0
+/usr/lib/libilmClient.so.1.11.0
+/usr/bin/EGLWLMockNavigation
+/usr/lib/libilmControl.so.1.11.0
+/usr/bin/layer-add-surfaces
+/usr/lib/weston/

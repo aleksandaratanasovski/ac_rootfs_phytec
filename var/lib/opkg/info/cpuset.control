@@ -1,0 +1,13 @@
+Package: cpuset
+Version: 1.5.7-r0
+Description: Cpuset is a Python application to make using the cpusets facilities in the Linux kernel easier
+ Cpuset is a Python application to make using the cpusets facilities in
+ the Linux kernel easier.
+Section: console/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7ahf-neon
+OE: cpuset
+Depends: python-core
+Source: https://github.com/lpechacek/cpuset/archive/v1.5.7.tar.gz

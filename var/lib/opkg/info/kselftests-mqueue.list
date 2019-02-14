@@ -1,0 +1,3 @@
+/usr/bin/kselftests/mqueue/mq_perf_tests
+/usr/bin/kselftests/mqueue/
+/usr/bin/kselftests/mqueue/mq_open_tests

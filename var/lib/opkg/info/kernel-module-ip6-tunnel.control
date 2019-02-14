@@ -1,0 +1,12 @@
+Package: kernel-module-ip6-tunnel
+Version: 4.9.41+git_v4.9.41-phy4-r7a
+Description: ip6-tunnel kernel module
+ ip6-tunnel kernel module; IPv6 tunneling device
+Section: kernel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: am5728_phycore_rdk
+OE: linux-phytec-ti
+Depends: kernel-4.9.41-g61a65e1-BSP-Yocto-TISDK-AM57xx-PD18.2.0, kernel-module-tunnel6
+Source: git://git@stash.phytec.com/scm/pub/linux-phytec-ti.git;protocol=https;branch=v4.9.41-phy file://defconfig file://openamp.scc

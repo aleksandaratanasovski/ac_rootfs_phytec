@@ -1,0 +1,12 @@
+Package: uvc-gadget
+Version: 1.0+git0+3c5a666f9d-r0
+Description: UVC gadget userspace sample application
+ UVC gadget userspace sample application.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: armv7ahf-neon
+OE: uvc-gadget
+Depends: libc6 (>= 2.23)
+Source: git://git.ideasonboard.org/uvc-gadget.git file://0001-uvc-gadget-don-t-hardcode-uvc.h-path.patch

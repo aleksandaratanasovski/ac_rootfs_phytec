@@ -1,0 +1,3 @@
+/sbin/fsck
+/sbin/fsck.util-linux 80
+/bin/busybox.nosuid 50

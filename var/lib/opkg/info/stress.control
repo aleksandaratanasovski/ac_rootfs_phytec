@@ -1,0 +1,14 @@
+Package: stress
+Version: 1.0.4-r0
+Description: System load testing utility
+ Deliberately simple workload generator for POSIX systems. It imposes a
+ configurable amount of CPU, memory, I/O, and disk stress on the system.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7ahf-neon
+OE: stress
+Homepage: http://people.seas.harvard.edu/~apw/stress/
+Depends: libc6 (>= 2.23)
+Source: http://people.seas.harvard.edu/~apw/stress/stress-1.0.4.tar.gz file://texinfo.patch

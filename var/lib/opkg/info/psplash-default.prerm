@@ -1,0 +1,4 @@
+#!/bin/sh
+# Begin section update-alternatives
+update-alternatives --remove  psplash /usr/bin/psplash-default
+# End section update-alternatives

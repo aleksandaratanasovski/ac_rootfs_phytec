@@ -1,0 +1,13 @@
+Package: ti-ipc-rtos-fw
+Version: 3.46.02.04-r1.r2
+Description: ti-ipc-rtos version 3.46.02.04-r1.r2
+ TI Inter Process Communication (IPC) Mechanisms (for Uni- and Multi-
+ Processor Configurations)
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: am5728_phycore_rdk
+OE: ti-ipc-rtos
+Homepage: http://processors.wiki.ti.com/index.php/Category:IPC
+Source: git://git.ti.com/ipc/ipcdev.git;protocol=git;branch=3.46;name=ipcdev git://git.ti.com/ipc/ipc-examples.git;destsuffix=git/ipc-examples;protocol=git;branch=master;name=ipc-examples git://git.ti.com/ipc/ipc-metadata.git;destsuffix=git/ipc-metadata;protocol=git;branch=master;name=ipc-metadata

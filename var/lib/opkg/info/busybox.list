@@ -1,0 +1,9 @@
+/bin/sh
+/bin/busybox.suid
+/etc/init.d/inetd.busybox
+/bin/busybox
+/etc/init.d/
+/etc/busybox.links.nosuid
+/etc/busybox.links.suid
+/etc/inetd.conf
+/bin/busybox.nosuid

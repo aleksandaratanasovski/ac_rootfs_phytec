@@ -1,0 +1,13 @@
+Package: tcpdump
+Version: 4.9.0-r0
+Description: A sophisticated network protocol analyzer
+ A sophisticated network protocol analyzer.
+Section: net
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7ahf-neon
+OE: tcpdump
+Homepage: http://www.tcpdump.org/
+Depends: libc6 (>= 2.23), libcrypto1.0.0 (>= 1.0.2j), libpcap1 (>= 1.7.4)
+Source: http://www.tcpdump.org/release/tcpdump-4.9.0.tar.gz file://unnecessary-to-check-libpcap.patch file://tcpdump-configure-dlpi.patch file://add-ptest.patch file://run-ptest

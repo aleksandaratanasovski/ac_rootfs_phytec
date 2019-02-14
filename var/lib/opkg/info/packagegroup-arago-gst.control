@@ -1,0 +1,12 @@
+Package: packagegroup-arago-gst
+Version: 1.0-r17
+Description: packagegroup-arago-gst version 1.0-r17
+ Task to add gstreamer and gstreamer plugins
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am5728_phycore_rdk
+OE: packagegroup-arago-gst
+Depends: gstreamer1.0, gstreamer1.0-libav, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-bad-meta, gstreamer1.0-plugins-base, gstreamer1.0-plugins-base-meta, gstreamer1.0-plugins-dsp66, gstreamer1.0-plugins-ducati, gstreamer1.0-plugins-good, gstreamer1.0-plugins-good-meta, gstreamer1.0-plugins-hevc, gstreamer1.0-plugins-vpe
+Source: None

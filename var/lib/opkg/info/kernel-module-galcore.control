@@ -1,0 +1,13 @@
+Package: kernel-module-galcore
+Version: 5.0.11.p7-r7d
+Description: galcore kernel module
+ galcore kernel module; Vivante Graphics Driver
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT | GPLv2
+Architecture: am5728_phycore_rdk
+OE: ti-gc320-driver
+Homepage: https://git.ti.com/graphics/ti-gc320-driver
+Depends: kernel-4.9.41-g61a65e1-BSP-Yocto-TISDK-AM57xx-PD18.2.0
+Source: git://git.ti.com/graphics/ti-gc320-driver.git;protocol=git;branch=ti-5.0.11.p7-k4.9

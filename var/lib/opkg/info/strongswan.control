@@ -1,0 +1,18 @@
+Package: strongswan
+Version: 5.5.0-r0.arago3
+Description: strongSwan is an OpenSource IPsec implementation
+ strongSwan is an OpenSource IPsec implementation for the Linux operating
+ system.
+Section: net
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7ahf-neon
+OE: strongswan
+Homepage: http://www.strongswan.org
+Depends: libatomic1 (>= 6.2.1), libc6 (>= 2.23), libcrypto1.0.0 (>= 1.0.2j), libcurl4 (>= 7.50.1), libsqlite3-0 (>= 3.14.1), libssl1.0.0 (>= 1.0.2j), libz1 (>= 1.2.8)
+Recommends: kernel-module-ipsec
+Provides: strongswan-systemd
+Replaces: strongswan-systemd
+Conflicts: strongswan-systemd
+Source: http://download.strongswan.org/strongswan-5.5.0.tar.bz2 file://fix-funtion-parameter.patch file://pkcs11_plugin.conf

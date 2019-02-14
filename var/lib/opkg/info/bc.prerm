@@ -1,0 +1,4 @@
+#!/bin/sh
+# Begin section update-alternatives
+update-alternatives --remove  dc /usr/bin/dc.bc
+# End section update-alternatives

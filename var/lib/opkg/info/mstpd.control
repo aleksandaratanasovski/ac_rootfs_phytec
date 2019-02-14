@@ -1,0 +1,12 @@
+Package: mstpd
+Version: 0.0.5+git0+3dbd68c11d-r0
+Description: Multiple Spanning Tree Protocol Daemon
+ Multiple Spanning Tree Protocol Daemon.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7ahf-neon
+OE: mstpd
+Depends: libc6 (>= 2.23), python-core
+Source: git://github.com/mstpd/mstpd.git;protocol=https

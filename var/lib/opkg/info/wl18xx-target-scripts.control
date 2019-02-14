@@ -1,0 +1,11 @@
+Package: wl18xx-target-scripts
+Version: 8.7.1-r0
+Description: wl18xx-target-scripts version 8.7.1-r0
+ Scripts and configuration files for TI wireless drivers
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7ahf-neon
+OE: wl18xx-target-scripts
+Source: git://git.ti.com/wilink8-wlan/wl18xx-target-scripts.git;protocol=git;branch=sitara-scripts

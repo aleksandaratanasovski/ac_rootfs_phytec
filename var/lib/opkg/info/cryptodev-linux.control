@@ -1,0 +1,12 @@
+Package: cryptodev-linux
+Version: 1.8-r0
+Description: A /dev/crypto device driver header file
+ A /dev/crypto device driver header file.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7ahf-neon
+OE: cryptodev-linux
+Homepage: http://cryptodev-linux.org/
+Source: http://nwl.cc/pub/cryptodev-linux/cryptodev-linux-1.8.tar.gz file://06d6b560c6e45dc317dae47c74706fa43f4a31d8.patch file://cb186f682679383e8b5806240927903730ce85d9.patch

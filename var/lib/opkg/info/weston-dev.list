@@ -1,0 +1,16 @@
+/usr/include/weston/compositor-drm.h
+/usr/include/weston/compositor-wayland.h
+/usr/lib/pkgconfig/weston.pc
+/usr/include/weston/version.h
+/usr/include/weston/timeline-object.h
+/usr/include/weston/ivi-layout-export.h
+/usr/include/weston/config-parser.h
+/usr/include/weston/compositor-x11.h
+/usr/include/weston/compositor-rdp.h
+/usr/include/weston/matrix.h
+/usr/include/weston/compositor-fbdev.h
+/usr/include/weston/compositor-headless.h
+/usr/include/weston/zalloc.h
+/usr/include/weston/platform.h
+/usr/include/weston/compositor.h
+/usr/include/weston/

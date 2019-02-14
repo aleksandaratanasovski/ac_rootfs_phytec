@@ -1,0 +1,9 @@
+/lib/udev/hwdb.d/90-libinput-model-quirks.hwdb
+/usr/bin/libinput-debug-events
+/lib/udev/libinput-device-group
+/lib/udev/libinput-model-quirks
+/usr/lib/libinput.so.10.9.2
+/usr/bin/libinput-list-devices
+/lib/udev/rules.d/90-libinput-model-quirks.rules
+/usr/lib/libinput.so.10
+/lib/udev/rules.d/80-libinput-device-groups.rules

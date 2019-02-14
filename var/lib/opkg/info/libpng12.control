@@ -1,0 +1,13 @@
+Package: libpng12
+Version: 1.2.56-r0
+Description: PNG image format decoding library
+ PNG image format decoding library.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Libpng
+Architecture: armv7ahf-neon
+OE: libpng12
+Homepage: http://www.libpng.org/
+Depends: libc6 (>= 2.23), libz1 (>= 1.2.8)
+Source: http://distfiles.gentoo.org/distfiles/libpng-1.2.56.tar.xz

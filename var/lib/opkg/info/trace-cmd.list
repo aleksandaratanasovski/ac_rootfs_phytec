@@ -1,0 +1,15 @@
+/usr/lib/trace-cmd/plugins/plugin_kmem.so
+/usr/lib/trace-cmd/plugins/plugin_sched_switch.so
+/usr/lib/trace-cmd/
+/usr/lib/trace-cmd/plugins/plugin_mac80211.so
+/usr/lib/trace-cmd/plugins/plugin_scsi.so
+/usr/lib/trace-cmd/plugins/plugin_jbd2.so
+/usr/lib/trace-cmd/plugins/plugin_cfg80211.so
+/usr/bin/trace-cmd
+/usr/lib/trace-cmd/plugins/plugin_xen.so
+/usr/lib/trace-cmd/plugins/plugin_kvm.so
+/usr/lib/trace-cmd/plugins/plugin_hrtimer.so
+/usr/lib/trace-cmd/plugins/
+/usr/lib/trace-cmd/plugins/plugin_tlb.so
+/usr/lib/trace-cmd/plugins/plugin_blk.so
+/usr/lib/trace-cmd/plugins/plugin_function.so

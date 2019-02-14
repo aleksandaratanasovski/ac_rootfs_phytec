@@ -1,0 +1,4 @@
+#!/bin/sh
+# Begin section update-alternatives
+update-alternatives --install /usr/sbin/powertop powertop /usr/sbin/powertop.powertop 100
+# End section update-alternatives

@@ -1,0 +1,24 @@
+#!/bin/sh
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	systemctl $OPTS enable rpcbind.service
+
+	if [ -z "$D" -a "enable" = "enable" ]; then
+		systemctl --no-block restart rpcbind.service
+	fi
+fi
+# Begin section update-rc.d
+if type update-rc.d >/dev/null 2>/dev/null; then
+	if [ -n "$D" ]; then
+		OPT="-r $D"
+	else
+		OPT="-s"
+	fi
+	update-rc.d $OPT rpcbind start 12 2 3 4 5 . stop 60 0 1 6 .
+fi
+# End section update-rc.d

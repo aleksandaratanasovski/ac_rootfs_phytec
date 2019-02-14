@@ -1,0 +1,12 @@
+Package: packagegroup-arago-tisdk-connectivity
+Version: 1.0-r37.tisdk3
+Description: packagegroup-arago-tisdk-connectivity version 1.0-r37.tisdk3
+ Task to install wireless packages into the target FS
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am5728_phycore_rdk
+OE: packagegroup-arago-tisdk-connectivity
+Depends: bluez5, bluez5-noinst-tools, bluez5-obex, bluez5-testtools, bt-enable, bt-fw, crda, eventdump, hostap-daemon-wl18xx, htop, iproute2, iproute2-tc, iptables, iw, pulseaudio, pulseaudio-lib-bluez5-util, pulseaudio-module-bluetooth-discover, pulseaudio-module-bluetooth-policy, pulseaudio-module-bluez5-device, pulseaudio-module-bluez5-discover, pulseaudio-module-loopback, pulseaudio-server, sbc, softap-udhcpd-config, uim, wireless-tools, wl18xx-calibrator, wl18xx-fw, wl18xx-target-scripts, wlconf, wpa-supplicant-wl18xx
+Source: None

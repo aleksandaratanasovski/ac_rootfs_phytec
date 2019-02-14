@@ -1,0 +1,12 @@
+Package: pulseaudio
+Version: 9.0-r0
+Description: Sound server for Linux and Unix-like operating systems
+ Sound server for Linux and Unix-like operating systems.
+Section: libs/multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2.1
+Architecture: armv7ahf-neon
+OE: pulseaudio
+Homepage: http://www.pulseaudio.org
+Source: http://freedesktop.org/software/pulseaudio/releases/pulseaudio-9.0.tar.xz file://0001-padsp-Make-it-compile-on-musl.patch file://0001-client-conf-Add-allow-autospawn-for-root.patch file://0001-alsa-bluetooth-fail-if-user-requested-profile-doesn-.patch file://0002-card-don-t-allow-the-CARD_NEW-hook-to-fail.patch file://0003-card-move-profile-selection-after-pa_card_new.patch file://0004-card-remove-pa_card_new_data.active_profile.patch file://0005-alsa-set-availability-for-some-unavailable-profiles.patch file://volatiles.04_pulse

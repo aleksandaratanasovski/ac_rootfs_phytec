@@ -1,0 +1,13 @@
+Package: libasound-module-conf-pulse
+Version: 1.1.1-r0.arago0
+Description: Alsa plugin for conf-pulse
+ Alsa plugin for conf-pulse
+Section: multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1 & GPLv2+
+Architecture: armv7ahf-neon
+OE: alsa-plugins
+Homepage: http://alsa-project.org
+Depends: libasound2 (>= 1.1.2), libc6 (>= 2.23), libcap2 (>= 2.25), libdbus-1-3 (>= 1.10.10), libflac8 (>= 1.3.1), libjson-c2 (>= 0.12), liblzma5 (>= 5.2.2), libogg0 (>= 1.3.2), libpulse0 (>= 9.0), libpulsecommon (>= 9.0), libsndfile1 (>= 1.0.27), libsystemd0 (>= 230+git0+3a74d4fc90), libvorbis (>= 1.3.5)
+Source: ftp://ftp.alsa-project.org/pub/plugins/alsa-plugins-1.1.1.tar.bz2
